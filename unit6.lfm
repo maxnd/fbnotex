@@ -1,0 +1,66 @@
+object fmRenameTags: TfmRenameTags
+  Left = 649
+  Height = 240
+  Top = 346
+  Width = 400
+  ActiveControl = edOldTag
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Rename tags'
+  ClientHeight = 240
+  ClientWidth = 400
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object edOldTag: TEdit
+    Left = 31
+    Height = 22
+    Top = 48
+    Width = 339
+    OnKeyDown = edOldTagKeyDown
+    TabOrder = 0
+  end
+  object edNewTag: TEdit
+    Left = 31
+    Height = 22
+    Top = 120
+    Width = 339
+    OnKeyDown = edNewTagKeyDown
+    TabOrder = 1
+  end
+  object lbOldTag: TLabel
+    Left = 31
+    Height = 16
+    Top = 26
+    Width = 86
+    Caption = 'Tag to rename'
+    ParentColor = False
+  end
+  object lbNewTag: TLabel
+    Left = 31
+    Height = 16
+    Top = 97
+    Width = 126
+    Caption = 'New name of the tag'
+    ParentColor = False
+  end
+  object bnOK: TButton
+    Left = 208
+    Height = 32
+    Top = 184
+    Width = 75
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 2
+  end
+  object bnCancel: TButton
+    Left = 296
+    Height = 32
+    Top = 184
+    Width = 75
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 3
+  end
+end

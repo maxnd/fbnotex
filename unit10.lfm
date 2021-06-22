@@ -1,0 +1,75 @@
+object fmPassword: TfmPassword
+  Left = 737
+  Height = 222
+  Top = 390
+  Width = 300
+  ActiveControl = edSudoPwd
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Password'
+  ClientHeight = 222
+  ClientWidth = 300
+  KeyPreview = True
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object lbSudoPwd: TLabel
+    Left = 25
+    Height = 16
+    Top = 27
+    Width = 153
+    Caption = 'Insert the sudo password'
+    ParentColor = False
+  end
+  object edSudoPwd: TEdit
+    Left = 25
+    Height = 22
+    Top = 50
+    Width = 255
+    EchoMode = emPassword
+    NumbersOnly = True
+    OnKeyDown = edSudoPwdKeyDown
+    PasswordChar = '*'
+    TabOrder = 0
+  end
+  object bnCancel: TButton
+    Left = 115
+    Height = 32
+    Top = 172
+    Width = 75
+    Caption = 'Cancel'
+    ModalResult = 2
+    TabOrder = 2
+  end
+  object bnOK: TButton
+    Left = 205
+    Height = 32
+    Top = 172
+    Width = 75
+    Caption = 'OK'
+    ModalResult = 1
+    TabOrder = 3
+  end
+  object lbSysPwd: TLabel
+    Left = 25
+    Height = 16
+    Top = 95
+    Width = 174
+    Caption = 'Insert the SYSDBA password'
+    ParentColor = False
+  end
+  object edSysPwd: TEdit
+    Left = 25
+    Height = 22
+    Top = 118
+    Width = 255
+    EchoMode = emPassword
+    NumbersOnly = True
+    OnKeyDown = edSysPwdKeyDown
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,106 @@
+object fmAdmin: TfmAdmin
+  Left = 736
+  Height = 317
+  Top = 390
+  Width = 300
+  ActiveControl = edSudoPwd
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Password'
+  ClientHeight = 317
+  ClientWidth = 300
+  KeyPreview = True
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object lbSudoPwd: TLabel
+    Left = 25
+    Height = 16
+    Top = 27
+    Width = 153
+    Caption = 'Insert the sudo password'
+    ParentColor = False
+  end
+  object edSudoPwd: TEdit
+    Left = 25
+    Height = 22
+    Top = 50
+    Width = 255
+    EchoMode = emPassword
+    NumbersOnly = True
+    OnKeyDown = edSudoPwdKeyDown
+    PasswordChar = '*'
+    TabOrder = 0
+  end
+  object bnCancel: TButton
+    Left = 115
+    Height = 32
+    Top = 274
+    Width = 75
+    Caption = 'Cancel'
+    OnClick = bnCancelClick
+    TabOrder = 4
+  end
+  object bnOK: TButton
+    Left = 205
+    Height = 32
+    Top = 274
+    Width = 75
+    Caption = 'OK'
+    OnClick = bnOKClick
+    TabOrder = 5
+  end
+  object lbSysPwd: TLabel
+    Left = 24
+    Height = 16
+    Top = 95
+    Width = 222
+    Caption = 'Insert the current SYSDBA password'
+    ParentColor = False
+  end
+  object edSysPwd: TEdit
+    Left = 25
+    Height = 22
+    Top = 118
+    Width = 255
+    EchoMode = emPassword
+    NumbersOnly = True
+    OnKeyDown = edSysPwdKeyDown
+    PasswordChar = '*'
+    TabOrder = 1
+  end
+  object lbSysPwd1: TLabel
+    Left = 24
+    Height = 16
+    Top = 168
+    Width = 239
+    Caption = 'Insert twice the new SYSDBA password'
+    ParentColor = False
+  end
+  object edSysPwd1: TEdit
+    Left = 25
+    Height = 22
+    Top = 191
+    Width = 255
+    EchoMode = emPassword
+    NumbersOnly = True
+    OnKeyDown = edSysPwd1KeyDown
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object edSysPwd2: TEdit
+    Left = 25
+    Height = 22
+    Top = 224
+    Width = 255
+    EchoMode = emPassword
+    NumbersOnly = True
+    OnKeyDown = edSysPwd2KeyDown
+    PasswordChar = '*'
+    TabOrder = 3
+  end
+end

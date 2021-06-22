@@ -1,0 +1,45 @@
+object fmPicture: TfmPicture
+  Left = 590
+  Height = 240
+  Top = 164
+  Width = 420
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 240
+  ClientWidth = 420
+  KeyPreview = True
+  OnHide = FormHide
+  OnKeyDown = FormKeyDown
+  OnShow = FormShow
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object shPicture: TShape
+    Left = 0
+    Height = 240
+    Top = 0
+    Width = 420
+    Align = alClient
+    Brush.Style = bsClear
+    Pen.Color = clGray
+  end
+  object imPicture: TImage
+    Left = 4
+    Height = 232
+    Top = 4
+    Width = 412
+    AntialiasingMode = amOn
+    Align = alClient
+    BorderSpacing.Around = 4
+    Center = True
+    Proportional = True
+    Stretch = True
+    Transparent = True
+  end
+  object tmPicture: TTimer
+    Enabled = False
+    Interval = 2000
+    OnTimer = tmPictureTimer
+    Left = 184
+    Top = 120
+  end
+end

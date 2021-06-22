@@ -1,0 +1,162 @@
+object fmShowAllTasks: TfmShowAllTasks
+  Left = 683
+  Height = 742
+  Top = 229
+  Width = 1152
+  ActiveControl = grTasks
+  BorderIcons = []
+  Caption = 'Show all the tasks'
+  ClientHeight = 742
+  ClientWidth = 1152
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object pnBottom: TPanel
+    Left = 0
+    Height = 56
+    Top = 686
+    Width = 1152
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 56
+    ClientWidth = 1152
+    TabOrder = 0
+    object nbOK: TButton
+      Left = 1062
+      Height = 35
+      Top = 11
+      Width = 75
+      Anchors = [akTop, akRight]
+      Caption = 'OK'
+      ModalResult = 1
+      OnClick = nbOKClick
+      TabOrder = 0
+    end
+    object cbShowAll: TCheckBox
+      Left = 32
+      Height = 18
+      Top = 19
+      Width = 18
+      OnClick = cbShowAllClick
+      TabOrder = 1
+    end
+    object lbShowAll: TStaticText
+      Left = 64
+      Height = 17
+      Top = 20
+      Width = 141
+      AutoSize = True
+      Caption = 'Show completed tasks'
+      TabOrder = 2
+    end
+  end
+  object pnTasks: TPanel
+    Left = 0
+    Height = 222
+    Top = 464
+    Width = 1152
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 222
+    ClientWidth = 1152
+    TabOrder = 1
+    object dbTasks: TDBMemo
+      Left = 4
+      Height = 204
+      Top = 14
+      Width = 1144
+      Align = alClient
+      BorderSpacing.Top = 10
+      BorderSpacing.Around = 4
+      DataField = 'COMMENTS'
+      DataSource = fmMain.dsAllTasks
+      ReadOnly = True
+      TabOrder = 0
+    end
+  end
+  object grTasks: TDBGrid
+    Left = 0
+    Height = 461
+    Top = 3
+    Width = 1152
+    Align = alClient
+    BorderSpacing.Top = 3
+    BorderStyle = bsNone
+    Color = clWindow
+    Columns = <    
+      item
+        ReadOnly = True
+        Title.Caption = 'Notebook'
+        Width = 200
+        FieldName = 'NOTEBOOKSTITLE'
+      end    
+      item
+        ReadOnly = True
+        Title.Caption = 'Section'
+        Width = 200
+        FieldName = 'SECTIONSTITLE'
+      end    
+      item
+        ReadOnly = True
+        Title.Caption = 'Note'
+        Width = 300
+        FieldName = 'NOTESTITLE'
+      end    
+      item
+        Title.Caption = 'Title'
+        Width = 300
+        FieldName = 'TITLE'
+      end    
+      item
+        Title.Caption = 'Start date'
+        Width = 230
+        FieldName = 'START_DATE'
+        DisplayFormat = 'dddd dd mmmm yyyy'
+      end    
+      item
+        Title.Caption = 'End date'
+        Width = 230
+        FieldName = 'END_DATE'
+        DisplayFormat = 'dddd dd mmmm yyyy'
+      end    
+      item
+        ButtonStyle = cbsCheckboxColumn
+        Title.Caption = 'Done'
+        Width = 100
+        FieldName = 'DONE'
+      end    
+      item
+        ButtonStyle = cbsPickList
+        PickList.Strings = (
+          '1. Urgent'
+          '2. Very important'
+          '3. Important'
+          '4. Normal'
+          '5. Optional'
+        )
+        Title.Caption = 'Priority'
+        Width = 140
+        FieldName = 'PRIORITY'
+      end    
+      item
+        Title.Caption = 'Resources'
+        Width = 300
+        FieldName = 'RESOURCES'
+      end>
+    DataSource = fmMain.dsAllTasks
+    DefaultRowHeight = 21
+    FixedCols = 0
+    Options = [dgTitles, dgColumnResize, dgColLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgCancelOnExit, dgDisableInsert]
+    ReadOnly = True
+    Scrollbars = ssAutoBoth
+    TabOrder = 2
+    TitleFont.Style = [fsBold]
+    TitleStyle = tsNative
+    OnDrawColumnCell = grTasksDrawColumnCell
+    OnDblClick = grTasksDblClick
+    OnKeyDown = grTasksKeyDown
+  end
+end

@@ -1,0 +1,90 @@
+object fmSearch: TfmSearch
+  Left = 493
+  Height = 211
+  Top = 257
+  Width = 440
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Search'
+  ClientHeight = 211
+  ClientWidth = 440
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poDefault
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object edFind: TEdit
+    Left = 27
+    Height = 22
+    Top = 40
+    Width = 386
+    Anchors = [akTop, akLeft, akRight]
+    OnKeyDown = edFindKeyDown
+    TabOrder = 0
+  end
+  object lbFind: TLabel
+    Left = 27
+    Height = 16
+    Top = 17
+    Width = 68
+    Caption = 'Text to find'
+    ParentColor = False
+  end
+  object bnFirst: TButton
+    Left = 27
+    Height = 32
+    Top = 163
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'First'
+    OnClick = bnFirstClick
+    TabOrder = 2
+  end
+  object bnNext: TButton
+    Left = 112
+    Height = 32
+    Top = 163
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Next'
+    OnClick = bnNextClick
+    TabOrder = 3
+  end
+  object bnOK: TButton
+    Left = 338
+    Height = 32
+    Top = 163
+    Width = 75
+    Anchors = [akLeft, akBottom]
+    Caption = 'Close'
+    OnClick = bnOKClick
+    TabOrder = 5
+  end
+  object lbReplace: TLabel
+    Left = 27
+    Height = 16
+    Top = 87
+    Width = 77
+    Caption = 'Replace with'
+    ParentColor = False
+  end
+  object edReplace: TEdit
+    Left = 27
+    Height = 22
+    Top = 110
+    Width = 386
+    Anchors = [akTop, akLeft, akRight]
+    TabOrder = 1
+  end
+  object bnReplace: TButton
+    Left = 197
+    Height = 32
+    Top = 163
+    Width = 130
+    Caption = 'Replace all'
+    ParentBidiMode = False
+    OnClick = bnReplaceClick
+    TabOrder = 4
+  end
+end

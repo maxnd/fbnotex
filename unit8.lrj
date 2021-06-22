@@ -1,0 +1,14 @@
+{"version":1,"strings":[
+{"hash":80452515,"name":"tfmshowalltasks.caption","sourcebytes":[83,104,111,119,32,97,108,108,32,116,104,101,32,116,97,115,107,115],"value":"Show all the tasks"},
+{"hash":1339,"name":"tfmshowalltasks.nbok.caption","sourcebytes":[79,75],"value":"OK"},
+{"hash":224472899,"name":"tfmshowalltasks.lbshowall.caption","sourcebytes":[83,104,111,119,32,99,111,109,112,108,101,116,101,100,32,116,97,115,107,115],"value":"Show completed tasks"},
+{"hash":111907083,"name":"tfmshowalltasks.grtasks.columns[0].title.caption","sourcebytes":[78,111,116,101,98,111,111,107],"value":"Notebook"},
+{"hash":163229710,"name":"tfmshowalltasks.grtasks.columns[1].title.caption","sourcebytes":[83,101,99,116,105,111,110],"value":"Section"},
+{"hash":349861,"name":"tfmshowalltasks.grtasks.columns[2].title.caption","sourcebytes":[78,111,116,101],"value":"Note"},
+{"hash":5966629,"name":"tfmshowalltasks.grtasks.columns[3].title.caption","sourcebytes":[84,105,116,108,101],"value":"Title"},
+{"hash":157483557,"name":"tfmshowalltasks.grtasks.columns[4].title.caption","sourcebytes":[83,116,97,114,116,32,100,97,116,101],"value":"Start date"},
+{"hash":73837669,"name":"tfmshowalltasks.grtasks.columns[5].title.caption","sourcebytes":[69,110,100,32,100,97,116,101],"value":"End date"},
+{"hash":308805,"name":"tfmshowalltasks.grtasks.columns[6].title.caption","sourcebytes":[68,111,110,101],"value":"Done"},
+{"hash":151426505,"name":"tfmshowalltasks.grtasks.columns[7].title.caption","sourcebytes":[80,114,105,111,114,105,116,121],"value":"Priority"},
+{"hash":174903555,"name":"tfmshowalltasks.grtasks.columns[8].title.caption","sourcebytes":[82,101,115,111,117,114,99,101,115],"value":"Resources"}
+]}

@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":53437283,"name":"tfmrenametags.caption","sourcebytes":[82,101,110,97,109,101,32,116,97,103,115],"value":"Rename tags"},
+{"hash":234044789,"name":"tfmrenametags.lboldtag.caption","sourcebytes":[84,97,103,32,116,111,32,114,101,110,97,109,101],"value":"Tag to rename"},
+{"hash":220681783,"name":"tfmrenametags.lbnewtag.caption","sourcebytes":[78,101,119,32,110,97,109,101,32,111,102,32,116,104,101,32,116,97,103],"value":"New name of the tag"},
+{"hash":1339,"name":"tfmrenametags.bnok.caption","sourcebytes":[79,75],"value":"OK"},
+{"hash":77089212,"name":"tfmrenametags.bncancel.caption","sourcebytes":[67,97,110,99,101,108],"value":"Cancel"}
+]}

@@ -1,0 +1,367 @@
+object fmOptions: TfmOptions
+  Left = 664
+  Height = 609
+  Top = 273
+  Width = 589
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Options'
+  ClientHeight = 609
+  ClientWidth = 589
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.0.12.0'
+  object cbStFonts: TComboBox
+    Left = 43
+    Height = 20
+    Top = 48
+    Width = 218
+    ItemHeight = 26
+    OnChange = cbStFontsChange
+    Style = csDropDownList
+    TabOrder = 0
+    Text = '0'
+  end
+  object edStSize: TEdit
+    Left = 43
+    Height = 22
+    Top = 114
+    Width = 50
+    NumbersOnly = True
+    OnChange = edStSizeChange
+    ReadOnly = True
+    TabOrder = 2
+    Text = '12'
+  end
+  object lbStSize: TLabel
+    Left = 43
+    Height = 16
+    Top = 90
+    Width = 131
+    Caption = 'Font size of the notes'
+    ParentColor = False
+  end
+  object bnStFontColorMod: TButton
+    Left = 45
+    Height = 36
+    Top = 144
+    Width = 216
+    Caption = 'Font color'
+    OnClick = bnStFontColorModClick
+    TabOrder = 8
+  end
+  object lnStFonts: TLabel
+    Left = 43
+    Height = 16
+    Top = 24
+    Width = 239
+    Caption = 'Font name of the notes and of the titles'
+    ParentColor = False
+  end
+  object edServer: TEdit
+    Left = 43
+    Height = 22
+    Top = 474
+    Width = 149
+    TabOrder = 18
+    Text = 'localhost'
+  end
+  object lbServer: TLabel
+    Left = 43
+    Height = 16
+    Top = 452
+    Width = 39
+    Caption = 'Server'
+    ParentColor = False
+  end
+  object lbPath: TLabel
+    Left = 219
+    Height = 16
+    Top = 452
+    Width = 79
+    Caption = 'Database file'
+    ParentColor = False
+  end
+  object edPath: TEdit
+    Left = 219
+    Height = 22
+    Top = 474
+    Width = 333
+    TabOrder = 19
+    Text = '/Users/fred/FBData/fbNotex.fdb'
+  end
+  object bnClose: TButton
+    Left = 477
+    Height = 30
+    Top = 561
+    Width = 75
+    Anchors = [akRight, akBottom]
+    Caption = 'OK'
+    OnClick = bnCloseClick
+    TabOrder = 22
+  end
+  object edBackup: TEdit
+    Left = 219
+    Height = 22
+    Top = 528
+    Width = 333
+    TabOrder = 21
+    Text = '/Users/fred/FBData/fbNotex-backup.fdb'
+  end
+  object lbBackup: TLabel
+    Left = 219
+    Height = 16
+    Top = 506
+    Width = 140
+    Caption = 'Backup and restore file'
+    ParentColor = False
+  end
+  object edStSizeTitles: TEdit
+    Left = 336
+    Height = 22
+    Top = 113
+    Width = 50
+    NumbersOnly = True
+    OnChange = edStSizeTitlesChange
+    ReadOnly = True
+    TabOrder = 5
+    Text = '10'
+  end
+  object lbStSizeTitles: TLabel
+    Left = 336
+    Height = 16
+    Top = 90
+    Width = 127
+    Caption = 'Font size of the titles'
+    ParentColor = False
+  end
+  object edPort: TEdit
+    Left = 43
+    Height = 22
+    Top = 528
+    Width = 149
+    NumbersOnly = True
+    TabOrder = 20
+    Text = '3050'
+  end
+  object lbPort: TLabel
+    Left = 43
+    Height = 16
+    Top = 506
+    Width = 25
+    Caption = 'Port'
+    ParentColor = False
+  end
+  object lbFBgbakPath: TLabel
+    Left = 43
+    Height = 16
+    Top = 392
+    Width = 61
+    Caption = 'gbak path'
+    ParentColor = False
+  end
+  object edFBgbakPath: TEdit
+    Left = 43
+    Height = 22
+    Top = 414
+    Width = 509
+    TabOrder = 17
+    Text = '/Library/Frameworks/firebird.framework/Versions/A/Resources/bin/gbak'
+  end
+  object edFBLibPath: TEdit
+    Left = 43
+    Height = 22
+    Top = 358
+    Width = 509
+    TabOrder = 16
+    Text = '/Library/Frameworks/firebird.framework/Versions/A/Resources/lib/libfbclient.dylib'
+  end
+  object lbFBLibPath: TLabel
+    Left = 43
+    Height = 16
+    Top = 336
+    Width = 119
+    Caption = 'Firebird library path'
+    ParentColor = False
+  end
+  object edStSizePlus: TButton
+    Left = 103
+    Height = 21
+    Top = 115
+    Width = 24
+    Caption = '+'
+    OnClick = edStSizePlusClick
+    TabOrder = 3
+  end
+  object edStSizeLess: TButton
+    Left = 131
+    Height = 21
+    Top = 115
+    Width = 24
+    Caption = '-'
+    OnClick = edStSizeLessClick
+    TabOrder = 4
+  end
+  object edStSizeTitlesPlus: TButton
+    Left = 396
+    Height = 21
+    Top = 114
+    Width = 24
+    Caption = '+'
+    OnClick = edStSizeTitlesPlusClick
+    TabOrder = 6
+  end
+  object edStSizeTitlesLess: TButton
+    Left = 424
+    Height = 21
+    Top = 114
+    Width = 24
+    Caption = '-'
+    OnClick = edStSizeTitlesLessClick
+    TabOrder = 7
+  end
+  object bnStFontTitleColorMod: TButton
+    Left = 336
+    Height = 36
+    Top = 176
+    Width = 216
+    Caption = 'Titles, lists and links color'
+    OnClick = bnStFontTitleColorModClick
+    TabOrder = 10
+  end
+  object bnStFontColorDef: TButton
+    Left = 334
+    Height = 36
+    Top = 40
+    Width = 218
+    Caption = 'Default colors'
+    OnClick = bnStFontColorDefClick
+    TabOrder = 1
+  end
+  object bnStFontHighColorMod: TButton
+    Left = 43
+    Height = 36
+    Top = 176
+    Width = 218
+    Caption = 'Highlight color'
+    OnClick = bnStFontHighColorModClick
+    TabOrder = 9
+  end
+  object lbStMaxChar: TLabel
+    Left = 43
+    Height = 16
+    Top = 278
+    Width = 99
+    Caption = 'Simple text from'
+    ParentColor = False
+  end
+  object edStMaxChar: TEdit
+    Left = 43
+    Height = 22
+    Top = 301
+    Width = 119
+    NumbersOnly = True
+    OnChange = edStSizeTitlesChange
+    ReadOnly = True
+    TabOrder = 13
+    Text = '100000'
+  end
+  object edStMaxPlus: TButton
+    Left = 172
+    Height = 22
+    Top = 301
+    Width = 24
+    Caption = '+'
+    OnClick = edStMaxPlusClick
+    TabOrder = 14
+  end
+  object edStMaxLess: TButton
+    Left = 200
+    Height = 22
+    Top = 301
+    Width = 24
+    Caption = '-'
+    OnClick = edStMaxLessClick
+    TabOrder = 15
+  end
+  object tbLineSpacing: TTrackBar
+    Left = 43
+    Height = 25
+    Top = 240
+    Width = 218
+    Max = 100
+    Min = 1
+    OnChange = tbLineSpacingChange
+    Position = 5
+    TickStyle = tsNone
+    TabOrder = 11
+  end
+  object lbLineSpacing: TLabel
+    Left = 43
+    Height = 16
+    Top = 218
+    Width = 76
+    Caption = 'Line spacing'
+    ParentColor = False
+  end
+  object tbParaSpacing: TTrackBar
+    Left = 336
+    Height = 25
+    Top = 240
+    Width = 216
+    Max = 100
+    Min = 1
+    OnChange = tbParaSpacingChange
+    Position = 1
+    TickStyle = tsNone
+    TabOrder = 12
+  end
+  object lbParaSpacing: TLabel
+    Left = 336
+    Height = 16
+    Top = 216
+    Width = 113
+    Caption = 'Paragraph spacing'
+    ParentColor = False
+  end
+  object bnStFontMarkMod: TButton
+    Left = 336
+    Height = 36
+    Top = 144
+    Width = 216
+    Caption = 'Markers color'
+    OnClick = bnStFontMarkModClick
+    TabOrder = 23
+  end
+  object cdColorDialog: TColorDialog
+    Title = 'Select a color'
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 360
+    Top = 408
+  end
+end

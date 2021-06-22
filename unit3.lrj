@@ -1,0 +1,5 @@
+{"version":1,"strings":[
+{"hash":195756483,"name":"tfmsections.caption","sourcebytes":[83,101,99,116,105,111,110,115],"value":"Sections"},
+{"hash":77089212,"name":"tfmsections.bncancel.caption","sourcebytes":[67,97,110,99,101,108],"value":"Cancel"},
+{"hash":1339,"name":"tfmsections.bnok.caption","sourcebytes":[79,75],"value":"OK"}
+]}

@@ -1,0 +1,1660 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+#: tfmadmin.bncancel.caption
+msgctxt "tfmadmin.bncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfmadmin.bnok.caption
+msgctxt "tfmadmin.bnok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfmadmin.caption
+msgctxt "tfmadmin.caption"
+msgid "Password"
+msgstr ""
+
+#: tfmadmin.lbsudopwd.caption
+msgctxt "tfmadmin.lbsudopwd.caption"
+msgid "Insert the sudo password"
+msgstr ""
+
+#: tfmadmin.lbsyspwd.caption
+msgctxt "tfmadmin.lbsyspwd.caption"
+msgid "Insert the current SYSDBA password"
+msgstr ""
+
+#: tfmadmin.lbsyspwd1.caption
+msgctxt "tfmadmin.lbsyspwd1.caption"
+msgid "Insert twice the new SYSDBA password"
+msgstr ""
+
+#: tfmbookmarks.bncancel.caption
+msgctxt "tfmbookmarks.bncancel.caption"
+msgid "Close"
+msgstr ""
+
+#: tfmbookmarks.bnclear.caption
+msgid "Clear"
+msgstr ""
+
+#: tfmbookmarks.bngoto.caption
+msgid "Go to"
+msgstr ""
+
+#: tfmbookmarks.bnset.caption
+msgid "Set"
+msgstr ""
+
+#: tfmbookmarks.caption
+msgctxt "tfmbookmarks.caption"
+msgid "Bookmarks"
+msgstr ""
+
+#: tfmbookmarks.lbbookmarks.caption
+msgctxt "tfmbookmarks.lbbookmarks.caption"
+msgid "Bookmarks"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[0].title.caption
+msgid "Key"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[1].title.caption
+msgid "ID Notebooks"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[2].title.caption
+msgid "ID Sections"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[3].title.caption
+msgid "ID Notes"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[4].title.caption
+msgctxt "tfmbookmarks.sgbookmarks.columns[4].title.caption"
+msgid "Notebook"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[5].title.caption
+msgctxt "tfmbookmarks.sgbookmarks.columns[5].title.caption"
+msgid "Section"
+msgstr ""
+
+#: tfmbookmarks.sgbookmarks.columns[6].title.caption
+msgctxt "tfmbookmarks.sgbookmarks.columns[6].title.caption"
+msgid "Note"
+msgstr ""
+
+#: tfmcopyright.caption
+msgctxt "tfmcopyright.caption"
+msgid "Copyright"
+msgstr ""
+
+#: tfmcopyright.lbcopyrighpowered.caption
+msgid "Powered by Firebird"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightauthor2.caption
+msgid "Massimo Nardello, Modena (Italy) 2020-2021"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightauthor3.caption
+msgid "Author and copyright:"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightdesc.caption
+msgid "A free software to manage notes and documents"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightname.caption
+msgid "fbNotex 1.2.8"
+msgstr ""
+
+#: tfmcopyright.lbcopyrightweb.caption
+msgid "Visit the website of fbNotex"
+msgstr ""
+
+#: tfmcopyright.lbok.caption
+msgctxt "tfmcopyright.lbok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfminsertid.bncancel.caption
+msgctxt "tfminsertid.bncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfminsertid.bnok.caption
+msgctxt "tfminsertid.bnok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfminsertid.bnpaste.caption
+msgctxt "tfminsertid.bnpaste.caption"
+msgid "Paste"
+msgstr ""
+
+#: tfminsertid.caption
+msgid "Insert ID"
+msgstr ""
+
+#: tfminsertid.lbidkind.caption
+msgid "Insert the notebook ID"
+msgstr ""
+
+#: tfmmain.bnbackup.caption
+msgid "Backup"
+msgstr ""
+
+#: tfmmain.bnexit.caption
+msgid "Exit"
+msgstr ""
+
+#: tfmmain.bnfind.caption
+msgctxt "tfmmain.bnfind.caption"
+msgid "Find"
+msgstr ""
+
+#: tfmmain.bnrestore.caption
+msgid "Restore"
+msgstr ""
+
+#: tfmmain.caption
+msgctxt "tfmmain.caption"
+msgid "fbNotex"
+msgstr ""
+
+#: tfmmain.cbfields.text
+msgctxt "tfmmain.cbfields.text"
+msgid "Title contains"
+msgstr ""
+
+#: tfmmain.cbsearchrange.text
+msgctxt "tfmmain.cbsearchrange.text"
+msgid "In the whole database"
+msgstr ""
+
+#: tfmmain.edpassword.text
+msgid "masterkey"
+msgstr ""
+
+#: tfmmain.edusername.text
+msgid "SYSDBA"
+msgstr ""
+
+#: tfmmain.grattachments.columns[0].title.caption
+msgid "Attached files"
+msgstr ""
+
+#: tfmmain.grfind.columns[0].title.caption
+msgctxt "tfmmain.grfind.columns[0].title.caption"
+msgid "Notebook"
+msgstr ""
+
+#: tfmmain.grfind.columns[1].title.caption
+msgctxt "tfmmain.grfind.columns[1].title.caption"
+msgid "Section"
+msgstr ""
+
+#: tfmmain.grfind.columns[2].title.caption
+msgctxt "tfmmain.grfind.columns[2].title.caption"
+msgid "Note"
+msgstr ""
+
+#: tfmmain.grlinks.columns[0].title.caption
+msgid "Linked notes"
+msgstr ""
+
+#: tfmmain.grlinks.columns[1].title.caption
+msgctxt "tfmmain.grlinks.columns[1].title.caption"
+msgid "ID"
+msgstr ""
+
+#: tfmmain.grnotebooks.columns[0].title.caption
+msgctxt "tfmmain.grnotebooks.columns[0].title.caption"
+msgid "Notebooks"
+msgstr ""
+
+#: tfmmain.grnotes.columns[0].title.caption
+msgctxt "tfmmain.grnotes.columns[0].title.caption"
+msgid "Notes"
+msgstr ""
+
+#: tfmmain.grsections.columns[0].title.caption
+msgctxt "tfmmain.grsections.columns[0].title.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfmmain.grtags.columns[0].title.caption
+msgctxt "tfmmain.grtags.columns[0].title.caption"
+msgid "Tags"
+msgstr ""
+
+#: tfmmain.grtagslist.columns[0].title.caption
+msgid "Tags list"
+msgstr ""
+
+#: tfmmain.grtasks.columns[0].title.caption
+msgctxt "tfmmain.grtasks.columns[0].title.caption"
+msgid "Title"
+msgstr ""
+
+#: tfmmain.grtasks.columns[1].title.caption
+msgctxt "tfmmain.grtasks.columns[1].title.caption"
+msgid "Start date"
+msgstr ""
+
+#: tfmmain.grtasks.columns[2].title.caption
+msgctxt "tfmmain.grtasks.columns[2].title.caption"
+msgid "End date"
+msgstr ""
+
+#: tfmmain.grtasks.columns[3].title.caption
+msgctxt "tfmmain.grtasks.columns[3].title.caption"
+msgid "Done"
+msgstr ""
+
+#: tfmmain.grtasks.columns[4].title.caption
+msgctxt "tfmmain.grtasks.columns[4].title.caption"
+msgid "Priority"
+msgstr ""
+
+#: tfmmain.grtasks.columns[5].title.caption
+msgctxt "tfmmain.grtasks.columns[5].title.caption"
+msgid "Resources"
+msgstr ""
+
+#: tfmmain.lbbackup.caption
+msgctxt "tfmmain.lbbackup.caption"
+msgid "The backup file is more recent than the one in use."
+msgstr ""
+
+#: tfmmain.lbfindhelp.caption
+msgid "Search on title, text, attachments and activities looks also for the capitalized sentence to be found, while search on tags is case sensitive. On date, the keywords today and yesterday are allowed."
+msgstr ""
+
+#: tfmmain.lbfound.caption
+msgid "Notes found: 0"
+msgstr ""
+
+#: tfmmain.lbid.caption
+msgctxt "tfmmain.lbid.caption"
+msgid "ID"
+msgstr ""
+
+#: tfmmain.lblogo.caption
+msgctxt "tfmmain.lblogo.caption"
+msgid "fbNotex"
+msgstr ""
+
+#: tfmmain.lbpassword.caption
+msgctxt "tfmmain.lbpassword.caption"
+msgid "Password"
+msgstr ""
+
+#: tfmmain.lbsize.caption
+msgid " "
+msgstr ""
+
+#: tfmmain.lbtitle.caption
+msgctxt "tfmmain.lbtitle.caption"
+msgid "Title"
+msgstr ""
+
+#: tfmmain.lbusername.caption
+msgid "User name"
+msgstr ""
+
+#: tfmmain.miedit.caption
+msgid "Edit"
+msgstr ""
+
+#: tfmmain.mieditbookmarks.caption
+msgid "Show bookmarks"
+msgstr ""
+
+#: tfmmain.mieditclean.caption
+msgid "Clean"
+msgstr ""
+
+#: tfmmain.mieditcopy.caption
+msgctxt "tfmmain.mieditcopy.caption"
+msgid "Copy"
+msgstr ""
+
+#: tfmmain.mieditcut.caption
+msgctxt "tfmmain.mieditcut.caption"
+msgid "Cut"
+msgstr ""
+
+#: tfmmain.mieditencodelinks.caption
+msgid "Encode links"
+msgstr ""
+
+#: tfmmain.mieditopenallword.caption
+msgid "Open section in Word"
+msgstr ""
+
+#: tfmmain.mieditopenallwriter.caption
+msgid "Open section in Writer"
+msgstr ""
+
+#: tfmmain.mieditopencurrword.caption
+msgid "Open note in Word"
+msgstr ""
+
+#: tfmmain.mieditopencurrwriter.caption
+msgid "Open note in Writer"
+msgstr ""
+
+#: tfmmain.mieditpaste.caption
+msgctxt "tfmmain.mieditpaste.caption"
+msgid "Paste"
+msgstr ""
+
+#: tfmmain.mieditpreview.caption
+msgid "Preview"
+msgstr ""
+
+#: tfmmain.mieditprevpic.caption
+msgid "Preview picture"
+msgstr ""
+
+#: tfmmain.mieditreformat.caption
+msgid "Reformat"
+msgstr ""
+
+#: tfmmain.mieditselectall.caption
+msgid "Select All"
+msgstr ""
+
+#: tfmmain.mifbcopyright.caption
+msgctxt "tfmmain.mifbcopyright.caption"
+msgid "About fbNotex..."
+msgstr ""
+
+#: tfmmain.mifbmanual.caption
+msgctxt "tfmmain.mifbmanual.caption"
+msgid "User manual"
+msgstr ""
+
+#: tfmmain.mifbnotex.caption
+msgctxt "tfmmain.mifbnotex.caption"
+msgid "fbNotex"
+msgstr ""
+
+#: tfmmain.mifile.caption
+msgid "File"
+msgstr ""
+
+#: tfmmain.mifileclose.caption
+msgid "Close database"
+msgstr ""
+
+#: tfmmain.mifileexport.caption
+msgid "Export notes of current section"
+msgstr ""
+
+#: tfmmain.mifileimport.caption
+msgid "Import notes in current section"
+msgstr ""
+
+#: tfmmain.mifilerefresh.caption
+msgctxt "tfmmain.mifilerefresh.caption"
+msgid "Refresh"
+msgstr ""
+
+#: tfmmain.mifilesave.caption
+msgid "Save"
+msgstr ""
+
+#: tfmmain.mifileundo.caption
+msgid "Undo changes"
+msgstr ""
+
+#: tfmmain.minotebooks.caption
+msgctxt "tfmmain.minotebooks.caption"
+msgid "Notebooks"
+msgstr ""
+
+#: tfmmain.minotebookscomments.caption
+msgctxt "tfmmain.minotebookscomments.caption"
+msgid "Details"
+msgstr ""
+
+#: tfmmain.minotebookscopyid.caption
+msgctxt "tfmmain.minotebookscopyid.caption"
+msgid "Copy ID"
+msgstr ""
+
+#: tfmmain.minotebooksdelete.caption
+msgctxt "tfmmain.minotebooksdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.minotebooksmove.caption
+msgctxt "tfmmain.minotebooksmove.caption"
+msgid "Move"
+msgstr ""
+
+#: tfmmain.minotebooksmovedown.caption
+msgctxt "tfmmain.minotebooksmovedown.caption"
+msgid "Down"
+msgstr ""
+
+#: tfmmain.minotebooksmoveup.caption
+msgctxt "tfmmain.minotebooksmoveup.caption"
+msgid "Up"
+msgstr ""
+
+#: tfmmain.minotebooksnew.caption
+msgctxt "tfmmain.minotebooksnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.minotebookssortby.caption
+msgctxt "tfmmain.minotebookssortby.caption"
+msgid "Sort by"
+msgstr ""
+
+#: tfmmain.minotebookssortbycustom.caption
+msgctxt "tfmmain.minotebookssortbycustom.caption"
+msgid "Custom"
+msgstr ""
+
+#: tfmmain.minotebookssortbytitle.caption
+msgctxt "tfmmain.minotebookssortbytitle.caption"
+msgid "Title"
+msgstr ""
+
+#: tfmmain.minotes.caption
+msgctxt "tfmmain.minotes.caption"
+msgid "Notes"
+msgstr ""
+
+#: tfmmain.minotesattachments.caption
+msgid "Attachments"
+msgstr ""
+
+#: tfmmain.minotesattachmentsdelete.caption
+msgctxt "tfmmain.minotesattachmentsdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.minotesattachmentsnew.caption
+msgctxt "tfmmain.minotesattachmentsnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.minotesattachmentsopen.caption
+msgctxt "tfmmain.minotesattachmentsopen.caption"
+msgid "Open"
+msgstr ""
+
+#: tfmmain.minotesattachmentssaveas.caption
+msgctxt "tfmmain.minotesattachmentssaveas.caption"
+msgid "Save as"
+msgstr ""
+
+#: tfmmain.minoteschangesection.caption
+msgid "Change section"
+msgstr ""
+
+#: tfmmain.minotescopyid.caption
+msgctxt "tfmmain.minotescopyid.caption"
+msgid "Copy ID"
+msgstr ""
+
+#: tfmmain.minotesdelete.caption
+msgctxt "tfmmain.minotesdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.minotesfind.caption
+msgctxt "tfmmain.minotesfind.caption"
+msgid "Find"
+msgstr ""
+
+#: tfmmain.minotesimport.caption
+msgid "Import from file"
+msgstr ""
+
+#: tfmmain.minoteslinks.caption
+msgid "Links"
+msgstr ""
+
+#: tfmmain.minoteslinksdelete.caption
+msgctxt "tfmmain.minoteslinksdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.minoteslinkslocate.caption
+msgctxt "tfmmain.minoteslinkslocate.caption"
+msgid "Locate linked note"
+msgstr ""
+
+#: tfmmain.minoteslinksnew.caption
+msgctxt "tfmmain.minoteslinksnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.minotesmove.caption
+msgctxt "tfmmain.minotesmove.caption"
+msgid "Move"
+msgstr ""
+
+#: tfmmain.minotesmovedown.caption
+msgctxt "tfmmain.minotesmovedown.caption"
+msgid "Down"
+msgstr ""
+
+#: tfmmain.minotesmoveup.caption
+msgctxt "tfmmain.minotesmoveup.caption"
+msgid "Up"
+msgstr ""
+
+#: tfmmain.minotesnew.caption
+msgctxt "tfmmain.minotesnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.minotessearch.caption
+msgid "Search in note"
+msgstr ""
+
+#: tfmmain.minotesshowalltasks.caption
+msgid "Show all tasks"
+msgstr ""
+
+#: tfmmain.minotessortby.caption
+msgctxt "tfmmain.minotessortby.caption"
+msgid "Sort by"
+msgstr ""
+
+#: tfmmain.minotessortbycustom.caption
+msgctxt "tfmmain.minotessortbycustom.caption"
+msgid "Custom"
+msgstr ""
+
+#: tfmmain.minotessortbymodificationdate.caption
+msgid "Modification date"
+msgstr ""
+
+#: tfmmain.minotessortbytitle.caption
+msgctxt "tfmmain.minotessortbytitle.caption"
+msgid "Title"
+msgstr ""
+
+#: tfmmain.minotestags.caption
+msgctxt "tfmmain.minotestags.caption"
+msgid "Tags"
+msgstr ""
+
+#: tfmmain.minotestagsdelete.caption
+msgctxt "tfmmain.minotestagsdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.minotestagsnew.caption
+msgctxt "tfmmain.minotestagsnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.minotestagsrename.caption
+msgctxt "tfmmain.minotestagsrename.caption"
+msgid "Rename tag"
+msgstr ""
+
+#: tfmmain.minotestasks.caption
+msgctxt "tfmmain.minotestasks.caption"
+msgid "Tasks"
+msgstr ""
+
+#: tfmmain.minotestasksdelete.caption
+msgctxt "tfmmain.minotestasksdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.minotestaskshide.caption
+msgctxt "tfmmain.minotestaskshide.caption"
+msgid "Hide done tasks"
+msgstr ""
+
+#: tfmmain.minotestasksnew.caption
+msgctxt "tfmmain.minotestasksnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.minotestasksrefresh.caption
+msgctxt "tfmmain.minotestasksrefresh.caption"
+msgid "Sort"
+msgstr ""
+
+#: tfmmain.misection.caption
+msgctxt "tfmmain.misection.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfmmain.misectionschangenotebook.caption
+msgid "Change notebook"
+msgstr ""
+
+#: tfmmain.misectionscomments.caption
+msgctxt "tfmmain.misectionscomments.caption"
+msgid "Details"
+msgstr ""
+
+#: tfmmain.misectionscopyid.caption
+msgctxt "tfmmain.misectionscopyid.caption"
+msgid "Copy ID"
+msgstr ""
+
+#: tfmmain.misectionsdelete.caption
+msgctxt "tfmmain.misectionsdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.misectionsmove.caption
+msgctxt "tfmmain.misectionsmove.caption"
+msgid "Move"
+msgstr ""
+
+#: tfmmain.misectionsmovedown.caption
+msgctxt "tfmmain.misectionsmovedown.caption"
+msgid "Down"
+msgstr ""
+
+#: tfmmain.misectionsmoveup.caption
+msgctxt "tfmmain.misectionsmoveup.caption"
+msgid "Up"
+msgstr ""
+
+#: tfmmain.misectionsnew.caption
+msgctxt "tfmmain.misectionsnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.misectionssortby.caption
+msgctxt "tfmmain.misectionssortby.caption"
+msgid "Sort by"
+msgstr ""
+
+#: tfmmain.misectionssortbycustom.caption
+msgctxt "tfmmain.misectionssortbycustom.caption"
+msgid "Custom"
+msgstr ""
+
+#: tfmmain.misectionssortbytitle.caption
+msgctxt "tfmmain.misectionssortbytitle.caption"
+msgid "Title"
+msgstr ""
+
+#: tfmmain.mitools.caption
+msgid "Tools"
+msgstr ""
+
+#: tfmmain.mitoolsbackup.caption
+msgid "Backup database"
+msgstr ""
+
+#: tfmmain.mitoolscompact.caption
+msgid "Compact database"
+msgstr ""
+
+#: tfmmain.mitoolsfullscreen.caption
+msgid "Full screen"
+msgstr ""
+
+#: tfmmain.mitoolshidemarcol.caption
+msgid "Simple text"
+msgstr ""
+
+#: tfmmain.mitoolsoptions.caption
+msgctxt "tfmmain.mitoolsoptions.caption"
+msgid "Options"
+msgstr ""
+
+#: tfmmain.mitoolspwd.caption
+msgid "Change password"
+msgstr ""
+
+#: tfmmain.mitoolsrestore.caption
+msgid "Restore database"
+msgstr ""
+
+#: tfmmain.mitoolsshoweditor.caption
+msgid "Show editor only"
+msgstr ""
+
+#: tfmmain.mitoolstrans.caption
+msgid "Transparency"
+msgstr ""
+
+#: tfmmain.mitoolstrans0.caption
+msgid "None"
+msgstr ""
+
+#: tfmmain.mitoolstrans1.caption
+msgid "High"
+msgstr ""
+
+#: tfmmain.mitoolstrans2.caption
+msgid "Middle"
+msgstr ""
+
+#: tfmmain.mitoolstrans3.caption
+msgid "Low"
+msgstr ""
+
+#: tfmmain.odopendialog.title
+msgid "Open one or more files"
+msgstr ""
+
+#: tfmmain.pminserttag.caption
+msgid "Insert tag in current note"
+msgstr ""
+
+#: tfmmain.pmnotebookscopyid.caption
+msgctxt "tfmmain.pmnotebookscopyid.caption"
+msgid "Copy ID"
+msgstr ""
+
+#: tfmmain.pmnotebooksdelete.caption
+msgctxt "tfmmain.pmnotebooksdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmnotebooksmove.caption
+msgctxt "tfmmain.pmnotebooksmove.caption"
+msgid "Move"
+msgstr ""
+
+#: tfmmain.pmnotebooksmovedown.caption
+msgctxt "tfmmain.pmnotebooksmovedown.caption"
+msgid "Down"
+msgstr ""
+
+#: tfmmain.pmnotebooksmoveup.caption
+msgctxt "tfmmain.pmnotebooksmoveup.caption"
+msgid "Up"
+msgstr ""
+
+#: tfmmain.pmnotebooksnew.caption
+msgctxt "tfmmain.pmnotebooksnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmnotesattachmentsdelete.caption
+msgctxt "tfmmain.pmnotesattachmentsdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmnotesattachmentsinsname.caption
+msgid "Insert name"
+msgstr ""
+
+#: tfmmain.pmnotesattachmentsnew.caption
+msgctxt "tfmmain.pmnotesattachmentsnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmnotesattachmentsopen.caption
+msgctxt "tfmmain.pmnotesattachmentsopen.caption"
+msgid "Open"
+msgstr ""
+
+#: tfmmain.pmnotesattachmentssaveas.caption
+msgctxt "tfmmain.pmnotesattachmentssaveas.caption"
+msgid "Save as"
+msgstr ""
+
+#: tfmmain.pmnotescopyid.caption
+msgctxt "tfmmain.pmnotescopyid.caption"
+msgid "Copy ID"
+msgstr ""
+
+#: tfmmain.pmnotesdelete.caption
+msgctxt "tfmmain.pmnotesdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmnoteslinksdelete.caption
+msgctxt "tfmmain.pmnoteslinksdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmnoteslinkslocate.caption
+msgctxt "tfmmain.pmnoteslinkslocate.caption"
+msgid "Locate linked note"
+msgstr ""
+
+#: tfmmain.pmnoteslinksnew.caption
+msgctxt "tfmmain.pmnoteslinksnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmnotesmove.caption
+msgctxt "tfmmain.pmnotesmove.caption"
+msgid "Move"
+msgstr ""
+
+#: tfmmain.pmnotesmovedown.caption
+msgctxt "tfmmain.pmnotesmovedown.caption"
+msgid "Down"
+msgstr ""
+
+#: tfmmain.pmnotesmoveup.caption
+msgctxt "tfmmain.pmnotesmoveup.caption"
+msgid "Up"
+msgstr ""
+
+#: tfmmain.pmnotesnew.caption
+msgctxt "tfmmain.pmnotesnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmnotestagsdelete.caption
+msgctxt "tfmmain.pmnotestagsdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmnotestagsnew.caption
+msgctxt "tfmmain.pmnotestagsnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmnotestagsrename.caption
+msgctxt "tfmmain.pmnotestagsrename.caption"
+msgid "Rename tag"
+msgstr ""
+
+#: tfmmain.pmsectionscopyid.caption
+msgctxt "tfmmain.pmsectionscopyid.caption"
+msgid "Copy ID"
+msgstr ""
+
+#: tfmmain.pmsectionsdelete.caption
+msgctxt "tfmmain.pmsectionsdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmsectionsmove.caption
+msgctxt "tfmmain.pmsectionsmove.caption"
+msgid "Move"
+msgstr ""
+
+#: tfmmain.pmsectionsmovedown.caption
+msgctxt "tfmmain.pmsectionsmovedown.caption"
+msgid "Down"
+msgstr ""
+
+#: tfmmain.pmsectionsmoveup.caption
+msgctxt "tfmmain.pmsectionsmoveup.caption"
+msgid "Up"
+msgstr ""
+
+#: tfmmain.pmsectionsnew.caption
+msgctxt "tfmmain.pmsectionsnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmtasksdelete.caption
+msgctxt "tfmmain.pmtasksdelete.caption"
+msgid "Delete"
+msgstr ""
+
+#: tfmmain.pmtaskshide.caption
+msgctxt "tfmmain.pmtaskshide.caption"
+msgid "Hide done tasks"
+msgstr ""
+
+#: tfmmain.pmtasksnew.caption
+msgctxt "tfmmain.pmtasksnew.caption"
+msgid "New"
+msgstr ""
+
+#: tfmmain.pmtaskssort.caption
+msgctxt "tfmmain.pmtaskssort.caption"
+msgid "Sort"
+msgstr ""
+
+#: tfmmain.pmupdatetags.caption
+msgid "Update list"
+msgstr ""
+
+#: tfmmain.sdsavedialog.title
+msgid "Save file"
+msgstr ""
+
+#: tfmmain.tsnotes.caption
+msgctxt "tfmmain.tsnotes.caption"
+msgid "Notes"
+msgstr ""
+
+#: tfmmain.tstasks.caption
+msgctxt "tfmmain.tstasks.caption"
+msgid "Tasks"
+msgstr ""
+
+#: tfmnotebooks.bncancel.caption
+msgctxt "tfmnotebooks.bncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfmnotebooks.bnok.caption
+msgctxt "tfmnotebooks.bnok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfmnotebooks.caption
+msgctxt "tfmnotebooks.caption"
+msgid "Notebooks"
+msgstr ""
+
+#: tfmoptions.bnclose.caption
+msgctxt "tfmoptions.bnclose.caption"
+msgid "OK"
+msgstr ""
+
+#: tfmoptions.bnstfontcolordef.caption
+msgctxt "tfmoptions.bnstfontcolordef.caption"
+msgid "Default colors"
+msgstr ""
+
+#: tfmoptions.bnstfontcolormod.caption
+msgctxt "tfmoptions.bnstfontcolormod.caption"
+msgid "Font color"
+msgstr ""
+
+#: tfmoptions.bnstfonthighcolormod.caption
+msgctxt "tfmoptions.bnstfonthighcolormod.caption"
+msgid "Highlight color"
+msgstr ""
+
+#: tfmoptions.bnstfontmarkmod.caption
+msgctxt "tfmoptions.bnstfontmarkmod.caption"
+msgid "Markers color"
+msgstr ""
+
+#: tfmoptions.bnstfonttitlecolormod.caption
+msgid "Titles, lists and links color"
+msgstr ""
+
+#: tfmoptions.caption
+msgctxt "tfmoptions.caption"
+msgid "Options"
+msgstr ""
+
+#: tfmoptions.cbstfonts.text
+msgctxt "tfmoptions.cbstfonts.text"
+msgid "0"
+msgstr ""
+
+#: tfmoptions.cdcolordialog.title
+msgid "Select a color"
+msgstr ""
+
+#: tfmoptions.edbackup.text
+msgid "/Users/fred/FBData/fbNotex-backup.fdb"
+msgstr ""
+
+#: tfmoptions.edfbgbakpath.text
+msgctxt "tfmoptions.edfbgbakpath.text"
+msgid "/Library/Frameworks/firebird.framework/Versions/A/Resources/bin/gbak"
+msgstr ""
+
+#: tfmoptions.edfblibpath.text
+msgctxt "tfmoptions.edfblibpath.text"
+msgid "/Library/Frameworks/firebird.framework/Versions/A/Resources/lib/libfbclient.dylib"
+msgstr ""
+
+#: tfmoptions.edpath.text
+msgctxt "tfmoptions.edpath.text"
+msgid "/Users/fred/FBData/fbNotex.fdb"
+msgstr ""
+
+#: tfmoptions.edport.text
+msgid "3050"
+msgstr ""
+
+#: tfmoptions.edserver.text
+msgid "localhost"
+msgstr ""
+
+#: tfmoptions.edstmaxchar.text
+msgid "100000"
+msgstr ""
+
+#: tfmoptions.edstmaxless.caption
+msgctxt "tfmoptions.edstmaxless.caption"
+msgid "-"
+msgstr ""
+
+#: tfmoptions.edstmaxplus.caption
+msgctxt "tfmoptions.edstmaxplus.caption"
+msgid "+"
+msgstr ""
+
+#: tfmoptions.edstsize.text
+msgctxt "tfmoptions.edstsize.text"
+msgid "12"
+msgstr ""
+
+#: tfmoptions.edstsizeless.caption
+msgctxt "tfmoptions.edstsizeless.caption"
+msgid "-"
+msgstr ""
+
+#: tfmoptions.edstsizeplus.caption
+msgctxt "tfmoptions.edstsizeplus.caption"
+msgid "+"
+msgstr ""
+
+#: tfmoptions.edstsizetitles.text
+msgctxt "tfmoptions.edstsizetitles.text"
+msgid "10"
+msgstr ""
+
+#: tfmoptions.edstsizetitlesless.caption
+msgctxt "tfmoptions.edstsizetitlesless.caption"
+msgid "-"
+msgstr ""
+
+#: tfmoptions.edstsizetitlesplus.caption
+msgctxt "tfmoptions.edstsizetitlesplus.caption"
+msgid "+"
+msgstr ""
+
+#: tfmoptions.lbbackup.caption
+msgid "Backup and restore file"
+msgstr ""
+
+#: tfmoptions.lbfbgbakpath.caption
+msgid "gbak path"
+msgstr ""
+
+#: tfmoptions.lbfblibpath.caption
+msgid "Firebird library path"
+msgstr ""
+
+#: tfmoptions.lblinespacing.caption
+msgid "Line spacing"
+msgstr ""
+
+#: tfmoptions.lbparaspacing.caption
+msgid "Paragraph spacing"
+msgstr ""
+
+#: tfmoptions.lbpath.caption
+msgctxt "tfmoptions.lbpath.caption"
+msgid "Database file"
+msgstr ""
+
+#: tfmoptions.lbport.caption
+msgid "Port"
+msgstr ""
+
+#: tfmoptions.lbserver.caption
+msgid "Server"
+msgstr ""
+
+#: tfmoptions.lbstmaxchar.caption
+msgid "Simple text from"
+msgstr ""
+
+#: tfmoptions.lbstsize.caption
+msgid "Font size of the notes"
+msgstr ""
+
+#: tfmoptions.lbstsizetitles.caption
+msgid "Font size of the titles"
+msgstr ""
+
+#: tfmoptions.lnstfonts.caption
+msgid "Font name of the notes and of the titles"
+msgstr ""
+
+#: tfmpassword.bncancel.caption
+msgctxt "tfmpassword.bncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfmpassword.bnok.caption
+msgctxt "tfmpassword.bnok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfmpassword.caption
+msgctxt "tfmpassword.caption"
+msgid "Password"
+msgstr ""
+
+#: tfmpassword.lbsudopwd.caption
+msgctxt "tfmpassword.lbsudopwd.caption"
+msgid "Insert the sudo password"
+msgstr ""
+
+#: tfmpassword.lbsyspwd.caption
+msgid "Insert the SYSDBA password"
+msgstr ""
+
+#: tfmpicture.caption
+msgid "fmPicture"
+msgstr ""
+
+#: tfmrenametags.bncancel.caption
+msgctxt "tfmrenametags.bncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfmrenametags.bnok.caption
+msgctxt "tfmrenametags.bnok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfmrenametags.caption
+msgid "Rename tags"
+msgstr ""
+
+#: tfmrenametags.lbnewtag.caption
+msgid "New name of the tag"
+msgstr ""
+
+#: tfmrenametags.lboldtag.caption
+msgid "Tag to rename"
+msgstr ""
+
+#: tfmsearch.bnfirst.caption
+msgid "First"
+msgstr ""
+
+#: tfmsearch.bnnext.caption
+msgid "Next"
+msgstr ""
+
+#: tfmsearch.bnok.caption
+msgctxt "tfmsearch.bnok.caption"
+msgid "Close"
+msgstr ""
+
+#: tfmsearch.bnreplace.caption
+msgid "Replace all"
+msgstr ""
+
+#: tfmsearch.caption
+msgid "Search"
+msgstr ""
+
+#: tfmsearch.lbfind.caption
+msgid "Text to find"
+msgstr ""
+
+#: tfmsearch.lbreplace.caption
+msgid "Replace with"
+msgstr ""
+
+#: tfmsections.bncancel.caption
+msgctxt "tfmsections.bncancel.caption"
+msgid "Cancel"
+msgstr ""
+
+#: tfmsections.bnok.caption
+msgctxt "tfmsections.bnok.caption"
+msgid "OK"
+msgstr ""
+
+#: tfmsections.caption
+msgctxt "tfmsections.caption"
+msgid "Sections"
+msgstr ""
+
+#: tfmshowalltasks.caption
+msgid "Show all the tasks"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[0].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[0].title.caption"
+msgid "Notebook"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[1].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[1].title.caption"
+msgid "Section"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[2].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[2].title.caption"
+msgid "Note"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[3].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[3].title.caption"
+msgid "Title"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[4].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[4].title.caption"
+msgid "Start date"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[5].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[5].title.caption"
+msgid "End date"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[6].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[6].title.caption"
+msgid "Done"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[7].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[7].title.caption"
+msgid "Priority"
+msgstr ""
+
+#: tfmshowalltasks.grtasks.columns[8].title.caption
+msgctxt "tfmshowalltasks.grtasks.columns[8].title.caption"
+msgid "Resources"
+msgstr ""
+
+#: tfmshowalltasks.lbshowall.caption
+msgid "Show completed tasks"
+msgstr ""
+
+#: tfmshowalltasks.nbok.caption
+msgctxt "tfmshowalltasks.nbok.caption"
+msgid "OK"
+msgstr ""
+
+#: unit1.dateformat
+msgid "en"
+msgstr ""
+
+#: unit1.fileext001
+msgid "All formats|*.txt;*.odt;*.docx|Text file|*.txt|Writer files|*.odt|Word files|*.docx|All files|*"
+msgstr ""
+
+#: unit1.fileext002
+msgid "All files|*"
+msgstr ""
+
+#: unit1.fileext003
+msgid "fbNotex archive|*.sna"
+msgstr ""
+
+#: unit1.filename001
+msgctxt "unit1.filename001"
+msgid "Notes"
+msgstr ""
+
+#: unit1.find1
+msgctxt "unit1.find1"
+msgid "Title contains"
+msgstr ""
+
+#: unit1.find10
+msgid "In the current section"
+msgstr ""
+
+#: unit1.find2
+msgid "Text contains"
+msgstr ""
+
+#: unit1.find3
+msgid "Modification date among"
+msgstr ""
+
+#: unit1.find4
+msgid "Tags equal to"
+msgstr ""
+
+#: unit1.find5
+msgid "Attachment name contains"
+msgstr ""
+
+#: unit1.find6
+msgid "Activity name contains"
+msgstr ""
+
+#: unit1.find7
+msgid "SQL Where clause"
+msgstr ""
+
+#: unit1.find8
+msgctxt "unit1.find8"
+msgid "In the whole database"
+msgstr ""
+
+#: unit1.find9
+msgid "In the current notebook"
+msgstr ""
+
+#: unit1.msg001
+msgid "Data input or operation not correct. The error message is:"
+msgstr ""
+
+#: unit1.msg002
+msgid "Undo the changes to the text?"
+msgstr ""
+
+#: unit1.msg003
+msgid "The value entered is not a valid ID."
+msgstr ""
+
+#: unit1.msg004
+msgid "No note has been selected."
+msgstr ""
+
+#: unit1.msg005
+msgid "Backup the database"
+msgstr ""
+
+#: unit1.msg006
+msgctxt "unit1.msg006"
+msgid "It was not possible to copy the database file."
+msgstr ""
+
+#: unit1.msg007
+msgid "Backup completed."
+msgstr ""
+
+#: unit1.msg008
+msgid "The backup procedure has raised an error."
+msgstr ""
+
+#: unit1.msg009
+msgid "There's no backup file available."
+msgstr ""
+
+#: unit1.msg010
+msgid "Restore the database from the backup file created on"
+msgstr ""
+
+#: unit1.msg011
+msgctxt "unit1.msg011"
+msgid "at"
+msgstr ""
+
+#: unit1.msg012
+msgctxt "unit1.msg012"
+msgid "It was not possible to copy the database file."
+msgstr ""
+
+#: unit1.msg013
+msgid "Restore completed."
+msgstr ""
+
+#: unit1.msg014
+msgid "The restore procedure has raised an error."
+msgstr ""
+
+#: unit1.msg015
+msgid "Delete the current notebook with all the related sections and notes?"
+msgstr ""
+
+#: unit1.msg016
+msgid "It's not possible to add a new section because no notebook is selected."
+msgstr ""
+
+#: unit1.msg017
+msgid "Delete the current section with all the related notes?"
+msgstr ""
+
+#: unit1.msg018
+msgid "It's not possible to add a new note because no section is selected."
+msgstr ""
+
+#: unit1.msg019
+msgid "Delete the current note with all the related elements?"
+msgstr ""
+
+#: unit1.msg020
+msgid "It's not possible to add a new attachment because no note is selected."
+msgstr ""
+
+#: unit1.msg021
+msgid "Delete the current attachment?"
+msgstr ""
+
+#: unit1.msg022
+msgid "It's not possible to add a new tag because no note is selected."
+msgstr ""
+
+#: unit1.msg023
+msgid "Delete the current tag?"
+msgstr ""
+
+#: unit1.msg024
+msgid "It's not possible to add a new link because no note is selected."
+msgstr ""
+
+#: unit1.msg025
+msgid "Delete the current link?"
+msgstr ""
+
+#: unit1.msg026
+msgid "It's not possible to add a new task because no note is selected."
+msgstr ""
+
+#: unit1.msg027
+msgid "Delete the current task?"
+msgstr ""
+
+#: unit1.msg028
+msgid "The user name or the password are not correct."
+msgstr ""
+
+#: unit1.msg029
+msgid "It's not possible to save the data."
+msgstr ""
+
+#: unit1.msg030
+msgid "Undo all the changes not yet saved?"
+msgstr ""
+
+#: unit1.msg031
+msgid "It's not possible to undo the changes."
+msgstr ""
+
+#: unit1.msg032
+msgid "It's not possible to refresh the data."
+msgstr ""
+
+#: unit1.msg033
+msgid "The start date is not correct."
+msgstr ""
+
+#: unit1.msg034
+msgid "The end date is not correct."
+msgstr ""
+
+#: unit1.msg035
+msgid "Insert notebook ID"
+msgstr ""
+
+#: unit1.msg036
+msgid "Insert the ID of the new notebook."
+msgstr ""
+
+#: unit1.msg037
+msgid "Insert the ID of the note to be linked."
+msgstr ""
+
+#: unit1.msg038
+msgid "Insert section ID"
+msgstr ""
+
+#: unit1.msg039
+msgid "Insert the ID of the new section."
+msgstr ""
+
+#: unit1.msg040
+msgid "No note selected."
+msgstr ""
+
+#: unit1.msg041
+msgid "Notes found:"
+msgstr ""
+
+#: unit1.msg042
+msgid "It's not possible to import the file"
+msgstr ""
+
+#: unit1.msg043
+msgid "The SQL clause is not correct."
+msgstr ""
+
+#: unit1.msg044
+msgid "Add a new tag?"
+msgstr ""
+
+#: unit1.msg045
+msgid "It was not possible to export the notes."
+msgstr ""
+
+#: unit1.msg046
+msgid "It was not possible to import the notes."
+msgstr ""
+
+#: unit1.msg047
+msgid "The selected file was note created with fbNotex."
+msgstr ""
+
+#: unit1.msg048
+msgid "It was not possible to find the note."
+msgstr ""
+
+#: unit1.msg049
+msgid "No backup file has been specified in the options of the software."
+msgstr ""
+
+#: unit1.msg050
+msgid "The database has been compacted."
+msgstr ""
+
+#: unit1.msg051
+msgid "It was not possible to compact the database. Check that the passwords are correct"
+msgstr ""
+
+#: unit1.msg052
+msgid "Insert note ID"
+msgstr ""
+
+#: unit1.msg053
+msgid "The note is already linked."
+msgstr ""
+
+#: unit1.msg054
+msgid "The tag is already present."
+msgstr ""
+
+#: unit1.msg055
+msgid "No messages."
+msgstr ""
+
+#: unit1.msg056
+msgctxt "unit1.msg056"
+msgid "The backup file is more recent than the one in use."
+msgstr ""
+
+#: unit1.msg057
+msgid "Create a new task?"
+msgstr ""
+
+#: unit1.pdfmanual
+msgid "fbnotex-manual.pdf"
+msgstr ""
+
+#: unit1.prior1
+msgid "1. Urgent"
+msgstr ""
+
+#: unit1.prior2
+msgid "2. Very important"
+msgstr ""
+
+#: unit1.prior3
+msgid "3. Important"
+msgstr ""
+
+#: unit1.prior4
+msgid "4. Normal"
+msgstr ""
+
+#: unit1.prior5
+msgid "5. Optional"
+msgstr ""
+
+#: unit1.sb001
+msgid "The current note has been saved on"
+msgstr ""
+
+#: unit1.sb002
+msgctxt "unit1.sb002"
+msgid "at"
+msgstr ""
+
+#: unit1.sb003
+msgctxt "unit1.sb003"
+msgid "Tasks"
+msgstr ""
+
+#: unit1.sb004
+msgid "Database size"
+msgstr ""
+
+#: unit1.sb005
+msgid "Number of characters (markers included)"
+msgstr ""
+
+#: unit1.ts001
+msgctxt "unit1.ts001"
+msgid "Done"
+msgstr ""
+
+#: unit1.ts002
+msgctxt "unit1.ts002"
+msgid "Title"
+msgstr ""
+
+#: unit1.ts003
+msgctxt "unit1.ts003"
+msgid "Start date"
+msgstr ""
+
+#: unit1.ts004
+msgctxt "unit1.ts004"
+msgid "End date"
+msgstr ""
+
+#: unit1.ts005
+msgctxt "unit1.ts005"
+msgid "Priority"
+msgstr ""
+
+#: unit1.ts006
+msgctxt "unit1.ts006"
+msgid "Resources"
+msgstr ""
+
+#: unit12.msgadmin001
+msgctxt "unit12.msgadmin001"
+msgid "The new passwords do not match."
+msgstr ""
+
+#: unit9.msgfnd001
+msgid "Text not found."
+msgstr ""
+
+#: unit9.msgfnd002
+msgid "Replace all the recurrences of"
+msgstr ""
+
+#: unit9.msgfnd003
+msgid "with"
+msgstr ""
+

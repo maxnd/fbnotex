@@ -1,0 +1,7 @@
+{"version":1,"strings":[
+{"hash":164181124,"name":"tfminsertid.caption","sourcebytes":[73,110,115,101,114,116,32,73,68],"value":"Insert ID"},
+{"hash":1339,"name":"tfminsertid.bnok.caption","sourcebytes":[79,75],"value":"OK"},
+{"hash":77089212,"name":"tfminsertid.bncancel.caption","sourcebytes":[67,97,110,99,101,108],"value":"Cancel"},
+{"hash":91078932,"name":"tfminsertid.lbidkind.caption","sourcebytes":[73,110,115,101,114,116,32,116,104,101,32,110,111,116,101,98,111,111,107,32,73,68],"value":"Insert the notebook ID"},
+{"hash":5671589,"name":"tfminsertid.bnpaste.caption","sourcebytes":[80,97,115,116,101],"value":"Paste"}
+]}
