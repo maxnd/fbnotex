@@ -1190,6 +1190,7 @@ end;
 procedure TfmMain.dbTextKeyDown(Sender: TObject; var Key: word; Shift: TShiftState);
 var
   iNum, iPos: integer;
+  myRect: NSRect;
 begin
   if ((zqNotes.RecordCount = 0) and not (ssMeta in Shift)) then
   begin
@@ -1522,10 +1523,14 @@ begin
       begin
         InsText(LineEnding + IntToStr(iNum + 1) + '.'#9);
       end;
+      myRect := TCocoaTextView(NSScrollView(fmMain.dbText.Handle).documentView).
+        visibleRect;
       iPos := dbText.SelStart;
       RenumberList(False);
       FormatMarkers(2);
       dbText.SelStart := iPos;
+      TCocoaTextView(NSScrollView(fmMain.dbText.Handle).documentView).
+        scrollRectToVisible(myRect);
       Key := 0;
     end
     else
@@ -2343,18 +2348,23 @@ end;
 procedure TfmMain.miEditReformatClick(Sender: TObject);
 var
   iPos: integer;
+  myRect: NSRect;
 begin
   if zqNotes.RecordCount = 0 then
   begin
     Exit;
   end;
   iPos := dbText.SelStart;
+  myRect := TCocoaTextView(NSScrollView(fmMain.dbText.Handle).documentView).
+    visibleRect;
   RenumberFootnotes;
   RenumberList(True);
   ListAndFormatTitle;
   FormatMarkers(2);
   dbText.Refresh;
   dbText.SelStart := iPos;
+  TCocoaTextView(NSScrollView(fmMain.dbText.Handle).documentView).
+    scrollRectToVisible(myRect);
   // Workaround
   dbText.SelStart := dbText.SelStart + 1;
   dbText.SelStart := dbText.SelStart - 1;
