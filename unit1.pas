@@ -426,7 +426,9 @@ type
     procedure dbTextKeyPress(Sender: TObject; var Key: char);
     procedure dbTextKeyUp(Sender: TObject; var Key: word; Shift: TShiftState);
     procedure dbTitleKeyDown(Sender: TObject; var Key: word; Shift: TShiftState);
+    procedure dsAttachmentsDataChange(Sender: TObject; Field: TField);
     procedure dsNotesDataChange(Sender: TObject; Field: TField);
+    procedure dsTagsDataChange(Sender: TObject; Field: TField);
     procedure dsTasksDataChange(Sender: TObject; Field: TField);
     procedure edFindKeyDown(Sender: TObject; var Key: word; Shift: TShiftState);
     procedure edPasswordKeyPress(Sender: TObject; var Key: char);
@@ -4044,6 +4046,18 @@ begin
   zqAttachments.ApplyUpdates;
 end;
 
+procedure TfmMain.dsAttachmentsDataChange(Sender: TObject; Field: TField);
+begin
+  if zqAttachments.RecordCount > 0 then
+  begin
+    grAttachments.Options := grAttachments.Options + [dgEditing];
+  end
+  else
+  begin
+    grAttachments.Options := grAttachments.Options - [dgEditing];
+  end;
+end;
+
 // ******************** Tags ********************
 
 procedure TfmMain.zqTagsBeforeInsert(DataSet: TDataSet);
@@ -4079,6 +4093,18 @@ end;
 procedure TfmMain.zqTagsAfterDelete(DataSet: TDataSet);
 begin
   zqTags.ApplyUpdates;
+end;
+
+procedure TfmMain.dsTagsDataChange(Sender: TObject; Field: TField);
+begin
+  if zqTags.RecordCount > 0 then
+  begin
+    grTags.Options := grTags.Options + [dgEditing];
+  end
+  else
+  begin
+    grTags.Options := grTags.Options - [dgEditing];
+  end;
 end;
 
 // ******************** Links ********************

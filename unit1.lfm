@@ -2667,6 +2667,7 @@ object fmMain: TfmMain
   object dsTags: TDataSource
     DataSet = zqTags
     OnStateChange = StateChange
+    OnDataChange = dsTagsDataChange
     Left = 248
     Top = 280
   end
@@ -2806,6 +2807,7 @@ object fmMain: TfmMain
   object dsAttachments: TDataSource
     DataSet = zqAttachments
     OnStateChange = StateChange
+    OnDataChange = dsAttachmentsDataChange
     Left = 256
     Top = 235
   end
