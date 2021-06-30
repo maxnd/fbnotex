@@ -865,7 +865,6 @@ begin
     grAttachments.TitleFont.Color := $001ABC0F;
     grTags.TitleFont.Color := $001ABC0F;
     grLinks.TitleFont.Color := $001ABC0F;
-    grLinks.Columns[1].Font.Color := $001ABC0F;
     grTagsList.TitleFont.Color := $001ABC0F;
     grFind.TitleFont.Color := $001ABC0F;
     lbID.Font.Color := $001ABC0F;
@@ -890,7 +889,6 @@ begin
     grAttachments.TitleFont.Color := clLime;
     grTags.TitleFont.Color := clLime;
     grLinks.TitleFont.Color := clLime;
-    grLinks.Columns[1].Font.Color := clLime;
     grTagsList.TitleFont.Color := clLime;
     grFind.TitleFont.Color := clLime;
     lbID.Font.Color := clLime;

@@ -214,11 +214,6 @@ msgctxt "tfmmain.grlinks.columns[0].title.caption"
 msgid "Linked notes"
 msgstr "Note collegate"
 
-#: tfmmain.grlinks.columns[1].title.caption
-msgctxt "tfmmain.grlinks.columns[1].title.caption"
-msgid "ID"
-msgstr "ID"
-
 #: tfmmain.grnotebooks.columns[0].title.caption
 msgctxt "tfmmain.grnotebooks.columns[0].title.caption"
 msgid "Notebooks"
@@ -280,8 +275,6 @@ msgid "The backup file is more recent than the one in use."
 msgstr "Il file di backup è più recente di quello in uso."
 
 #: tfmmain.lbfindhelp.caption
-#, fuzzy
-#| msgid "Search on title, text, attachments and activities looks also for the capitalized sentence to be found, while search on tags is case sensitive. On date, the keywords today and yesterday are allowed."
 msgid "Search on title, text, attachments and activities looks also for the capitalized sentence to be found, while search on tags is case sensitive. On date, the keywords today and yesterday are allowed."
 msgstr "La ricerca sul titolo, sul testo, sugli allegati e sulle attività cerca la frase da trovare anche con l'iniziale maiuscola, mentre quella sui tag è sensibile alle maiuscole. In quella sulla data, sono ammesse le keyword today e yesterday."
 

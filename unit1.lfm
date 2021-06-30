@@ -1108,11 +1108,6 @@ object fmMain: TfmMain
             Title.Caption = 'Linked notes'
             Width = 280
             FieldName = 'TITLE'
-          end        
-          item
-            Title.Caption = 'ID'
-            Width = 60
-            FieldName = 'LINK_NOTE'
           end>
         DataSource = dsLinks
         DefaultRowHeight = 21

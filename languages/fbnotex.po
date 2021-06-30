@@ -209,11 +209,6 @@ msgstr ""
 msgid "Linked notes"
 msgstr ""
 
-#: tfmmain.grlinks.columns[1].title.caption
-msgctxt "tfmmain.grlinks.columns[1].title.caption"
-msgid "ID"
-msgstr ""
-
 #: tfmmain.grnotebooks.columns[0].title.caption
 msgctxt "tfmmain.grnotebooks.columns[0].title.caption"
 msgid "Notebooks"
