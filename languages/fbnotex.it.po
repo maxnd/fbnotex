@@ -1139,7 +1139,7 @@ msgstr "Inserire la password di sudo"
 
 #: tfmpassword.lbsyspwd.caption
 msgid "Insert the SYSDBA password"
-msgstr ""
+msgstr "Inserire la password di SYSDBA"
 
 #: tfmpicture.caption
 msgid "fmPicture"
