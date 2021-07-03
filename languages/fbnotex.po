@@ -1560,6 +1560,10 @@ msgstr ""
 msgid "Create a new task?"
 msgstr ""
 
+#: unit1.msg058
+msgid "Close the old note in the word processor to show the new one."
+msgstr ""
+
 #: unit1.pdfmanual
 msgid "fbnotex-manual.pdf"
 msgstr ""

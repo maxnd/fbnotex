@@ -275,6 +275,8 @@ msgid "The backup file is more recent than the one in use."
 msgstr "Il file di backup è più recente di quello in uso."
 
 #: tfmmain.lbfindhelp.caption
+#, fuzzy
+#| msgid "Search on title, text, attachments and activities looks also for the capitalized sentence to be found, while search on tags is case sensitive. On date, the keywords today and yesterday are allowed."
 msgid "Search on title, text, attachments and activities looks also for the capitalized sentence to be found, while search on tags is case sensitive. On date, the keywords today and yesterday are allowed."
 msgstr "La ricerca sul titolo, sul testo, sugli allegati e sulle attività cerca la frase da trovare anche con l'iniziale maiuscola, mentre quella sui tag è sensibile alle maiuscole. In quella sulla data, sono ammesse le keyword today e yesterday."
 
@@ -1566,6 +1568,10 @@ msgstr "Il file di backup è più recente di quello in uso."
 #: unit1.msg057
 msgid "Create a new task?"
 msgstr ""
+
+#: unit1.msg058
+msgid "Close the old note in the word processor to show the new one."
+msgstr "Chiudere la vecchia nota nell'elaboratore di testi per visualizzare la nuova."
 
 #: unit1.pdfmanual
 msgid "fbnotex-manual.pdf"

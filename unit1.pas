@@ -695,6 +695,7 @@ resourcestring
   msg055 = 'No messages.';
   msg056 = 'The backup file is more recent than the one in use.';
   msg057 = 'Create a new task?';
+  msg058 = 'Close the old note in the word processor to show the new one.';
   dateformat = 'en';
   prior1 = '1. Urgent';
   prior2 = '2. Very important';
@@ -2496,9 +2497,13 @@ begin
       begin
         myMemo.Text := CopyAsHTML(2, True);
       end;
-      myMemo.Lines.SaveToFile(GetNotexTempDir + filename001 + '.html');
-      Unix.fpSystem('open -a /Applications/Microsoft\ Word.app ' +
-        GetNotexTempDir + filename001 + '.html');
+      try
+        myMemo.Lines.SaveToFile(GetNotexTempDir + filename001 + '.html');
+        Unix.fpSystem('open -a /Applications/Microsoft\ Word.app ' +
+          GetNotexTempDir + filename001 + '.html');
+      except
+        MessageDlg(msg058, mtWarning, [mbOK], 0);
+      end;
     finally
       myMemo.Free;
     end;
@@ -2520,9 +2525,13 @@ begin
       begin
         myMemo.Text := CopyAsHTML(1, True);
       end;
-      myMemo.Lines.SaveToFile(GetNotexTempDir + filename001 + '.html');
-      Unix.fpSystem('open -a /Applications/LibreOffice.app/Contents/MacOS/soffice ' +
-        GetNotexTempDir + filename001 + '.html --args --writer ');
+      try
+        myMemo.Lines.SaveToFile(GetNotexTempDir + filename001 + '.html');
+        Unix.fpSystem('open -a /Applications/LibreOffice.app/Contents/MacOS/soffice ' +
+          GetNotexTempDir + filename001 + '.html --args --writer ');
+      except
+        MessageDlg(msg058, mtWarning, [mbOK], 0);
+      end;
     finally
       myMemo.Free;
     end;
