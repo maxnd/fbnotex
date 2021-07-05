@@ -781,6 +781,8 @@ begin
       pnLeft.Width := MyIni.ReadInteger('fbnotex', 'pnleft', 550);
       pnRight.Width := MyIni.ReadInteger('fbnotex', 'pnright', 360);
       grNotebooks.Height := MyIni.ReadInteger('fbnotex', 'grnotebooks', 190);
+      grAttachments.Height := MyIni.ReadInteger('fbnotex', 'grattachments', 170);
+      grLinks.Height := MyIni.ReadInteger('fbnotex', 'grlinks', 150);
       zcConnection.HostName := MyIni.ReadString('fbnotex', 'host', 'localhost');
       zcConnection.Database :=
         MyIni.ReadString('fbnotex', 'database', '');
@@ -972,6 +974,8 @@ begin
     MyIni.WriteInteger('fbnotex', 'pnleft', pnLeft.Width);
     MyIni.WriteInteger('fbnotex', 'pnright', pnRight.Width);
     MyIni.WriteInteger('fbnotex', 'grnotebooks', grNotebooks.Height);
+    MyIni.WriteInteger('fbnotex', 'grattachments', grAttachments.Height);
+    MyIni.WriteInteger('fbnotex', 'grlinks', grLinks.Height);
     MyIni.WriteString('fbnotex', 'host', zcConnection.HostName);
     MyIni.WriteString('fbnotex', 'database', zcConnection.Database);
     MyIni.WriteInteger('fbnotex', 'port', zcConnection.Port);

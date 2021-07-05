@@ -1059,7 +1059,7 @@ object fmMain: TfmMain
       TabOrder = 1
       object grAttachments: TDBGrid
         Left = 6
-        Height = 168
+        Height = 170
         Top = 0
         Width = 354
         Align = alTop
@@ -1070,7 +1070,7 @@ object fmMain: TfmMain
         Columns = <        
           item
             Title.Caption = 'Attached files'
-            Width = 340
+            Width = 1200
             FieldName = 'TITLE'
           end>
         DataSource = dsAttachments
@@ -1088,7 +1088,7 @@ object fmMain: TfmMain
         Cursor = crVSplit
         Left = 0
         Height = 5
-        Top = 168
+        Top = 170
         Width = 360
         Align = alTop
         Beveled = True
@@ -1096,8 +1096,8 @@ object fmMain: TfmMain
       end
       object grLinks: TDBGrid
         Left = 0
-        Height = 168
-        Top = 294
+        Height = 150
+        Top = 312
         Width = 360
         Align = alBottom
         AutoEdit = False
@@ -1106,7 +1106,7 @@ object fmMain: TfmMain
         Columns = <        
           item
             Title.Caption = 'Linked notes'
-            Width = 280
+            Width = 1200
             FieldName = 'TITLE'
           end>
         DataSource = dsLinks
@@ -1125,7 +1125,7 @@ object fmMain: TfmMain
         Cursor = crVSplit
         Left = 0
         Height = 5
-        Top = 289
+        Top = 307
         Width = 360
         Align = alBottom
         Beveled = True
@@ -1133,8 +1133,8 @@ object fmMain: TfmMain
       end
       object grTags: TDBGrid
         Left = 0
-        Height = 116
-        Top = 173
+        Height = 132
+        Top = 175
         Width = 360
         Align = alClient
         AutoEdit = False
@@ -1143,7 +1143,7 @@ object fmMain: TfmMain
         Columns = <        
           item
             Title.Caption = 'Tags'
-            Width = 350
+            Width = 1200
             FieldName = 'TAG'
           end>
         DataSource = dsTags
