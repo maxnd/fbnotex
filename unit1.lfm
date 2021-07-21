@@ -1,5 +1,5 @@
 object fmMain: TfmMain
-  Left = 335
+  Left = 334
   Height = 754
   Top = 148
   Width = 1405
@@ -1585,6 +1585,7 @@ object fmMain: TfmMain
     )
     HostName = 'localhost'
     Port = 3050
+    Database = '/Users/massimo/FBData/fbNotex.fdb'
     User = 'SYSDBA'
     Password = 'masterkey'
     Protocol = 'firebird-3.0'

@@ -5715,7 +5715,7 @@ procedure TfmMain.FormatMarkers(iAll: smallint);
 var
   iPos, iPosLine, iPosCode, i, n, iTest, iStart, iEnd: integer;
   iHeader: SmallInt;
-  blCode, blLineCode: boolean;
+  blCode, blLineCode, blSlash: boolean;
   stLine: string;
   rng, rngtit: NSRange;
   par: NSMutableParagraphStyle;
@@ -5924,6 +5924,27 @@ begin
       rng.length := 1;
       TCocoaTextView(NSScrollView(dbText.Handle).documentView).
         setTextColor_range(ColorToNSColor(clTitle), rng);
+    end;
+    blSlash := False;
+    for iPosLine := 1 to UTF8Length(stLine) do
+    begin
+      if UTF8Copy(stLine, iPosLine, 2) = '](' then
+      begin
+        blSlash := True;
+      end
+      else
+      if ((UTF8Copy(stLine, iPosLine, 1) = ')') and
+        (blSlash = True)) then
+      begin
+        blSlash := False;
+      end
+      else
+      if ((UTF8Copy(stLine, iPosLine, 1) = '/') and
+        (blSlash = True)) then
+      begin
+        stLine := UTF8Copy(stLine, 1, iPosLine - 1) + #1 +
+          UTF8Copy(stLine, iPosLine + 1, UTF8Length(stLine));
+      end;
     end;
     iPosLine := 1;
     while UTF8Pos('*', stLine, iPosLine) > 0 do
