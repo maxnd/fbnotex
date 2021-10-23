@@ -5713,7 +5713,7 @@ end;
 
 procedure TfmMain.FormatMarkers(iAll: smallint);
 var
-  iPos, iPosLine, iPosCode, i, n, iTest, iStart, iEnd: integer;
+  iPos, iPosLine, iPosCode, i, n, iTest, iStart, iEnd, iFontSize: integer;
   iHeader: SmallInt;
   blCode, blLineCode, blLink: boolean;
   stLine: string;
@@ -5730,6 +5730,7 @@ begin
   end;
   if iAll = 2 then
   begin
+    iFontSize := -dbText.font.Height;
     rng.location := 0;
     rng.length := UTF8Length(dbText.Text);
     TCocoaTextView(NSScrollView(dbText.Handle).documentView).
@@ -5738,7 +5739,7 @@ begin
       textStorage, rng.location);
     myFont := dict.objectForKey(NSFontAttributeName);
     fd := FindFont(dbText.Font.Name, 0);
-    myFont := NSFont.fontWithDescriptor_size(fd,  -dbText.font.Height);
+    myFont := NSFont.fontWithDescriptor_size(fd,  iFontSize);
     TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
       addAttribute_value_range(NSFontAttributeName, myFont, rng);
     TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
@@ -5765,6 +5766,7 @@ begin
   iPosCode := 0;
   for i := 0 to dbText.Lines.Count - 1 do
   begin
+    iFontSize := -dbText.font.Height;
     if iAll = 1 then
     begin
       for n := 0 to dbText.CaretPos.y - 1 do
@@ -5832,18 +5834,21 @@ begin
       if iHeader = 1 then
       begin
         fd := FindFont(dbText.Font.Name, 2);
-        myFont := NSFont.fontWithDescriptor_size(fd, -dbText.font.Height + 8);
+        iFontSize := iFontSize + 8;
+        myFont := NSFont.fontWithDescriptor_size(fd, iFontSize);
       end
       else
       if iHeader = 2 then
       begin
         fd := FindFont(dbText.Font.Name, 1);
-        myFont := NSFont.fontWithDescriptor_size(fd, -dbText.font.Height + 6);
+        iFontSize := iFontSize + 6;
+        myFont := NSFont.fontWithDescriptor_size(fd, iFontSize);
       end
       else
       begin
         fd := FindFont(dbText.Font.Name, 0);
-        myFont := NSFont.fontWithDescriptor_size(fd, -dbText.font.Height);
+        iFontSize := -dbText.font.Height;
+        myFont := NSFont.fontWithDescriptor_size(fd, iFontSize);
       end;
     end
     else
@@ -5855,7 +5860,7 @@ begin
         textStorage, rng.location);
       myFont := dict.objectForKey(NSFontAttributeName);
       fd := FindFont(dbText.Font.Name, 0);
-      myFont := NSFont.fontWithDescriptor_size(fd, -dbText.font.Height);
+      myFont := NSFont.fontWithDescriptor_size(fd, iFontSize);
     end
     else
     begin
@@ -5865,7 +5870,7 @@ begin
         textStorage, rng.location);
       myFont := dict.objectForKey(NSFontAttributeName);
       fd := FindFont(stFontMono, 0);
-      myFont := NSFont.fontWithDescriptor_size(fd, -dbText.font.Height - 5);
+      myFont := NSFont.fontWithDescriptor_size(fd, iFontSize - 5);
     end;
     TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
       addAttribute_value_range(NSFontAttributeName, myFont, rng);
@@ -6004,7 +6009,7 @@ begin
             begin
               fd := FindFont(dbText.Font.Name, 2);
             end;
-            myFont := NSFont.fontWithDescriptor_size(fd,  -dbText.font.Height);
+            myFont := NSFont.fontWithDescriptor_size(fd,  iFontSize);
             TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
               addAttribute_value_range(NSFontAttributeName, myFont, rng);
           end;
@@ -6060,7 +6065,7 @@ begin
             begin
               fd := FindFont(dbText.Font.Name, 1);
             end;
-            myFont := NSFont.fontWithDescriptor_size(fd,  -dbText.font.Height);
+            myFont := NSFont.fontWithDescriptor_size(fd,  iFontSize);
             TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
               addAttribute_value_range(NSFontAttributeName, myFont, rng);
           end;
@@ -6254,7 +6259,7 @@ begin
             NSScrollView(dbText.Handle).documentView).textStorage, rng.location);
           myFont := dict.objectForKey(NSFontAttributeName);
           fd := FindFont(dbText.Font.Name, 0);
-          myFont := NSFont.fontWithDescriptor_size(fd,  -dbText.font.Height);
+          myFont := NSFont.fontWithDescriptor_size(fd,  iFontSize);
           TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
             addAttribute_value_range(NSFontAttributeName, myFont, rng);
           TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
@@ -6394,7 +6399,7 @@ begin
           TCocoaTextView(NSScrollView(dbText.Handle).documentView).
             setTextColor_range(ColorToNSColor(dbText.Font.Color), rng);
           fd := FindFont(stFontMono, 0);
-          myFont := NSFont.fontWithDescriptor_size(fd,  -dbText.font.Height - 5);
+          myFont := NSFont.fontWithDescriptor_size(fd,  iFontSize - 5);
           TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.
             addAttribute_value_range(NSFontAttributeName, myFont, rng);
           TCocoaTextView(NSScrollView(dbText.Handle).documentView).textStorage.

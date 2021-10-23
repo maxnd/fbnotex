@@ -4,7 +4,7 @@ object fmCopyright: TfmCopyright
   Top = 331
   Width = 585
   AlphaBlend = True
-  AlphaBlendValue = 200
+  AlphaBlendValue = 210
   BorderIcons = []
   BorderStyle = bsDialog
   Caption = 'Copyright'
